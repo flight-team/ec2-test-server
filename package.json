@@ -8,7 +8,7 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
-    "start:pm2": "nest build & yarn pm2 start ecosystem.json",
+    "start:pm2": "nest build & yarn pm2 start ./ecosystem.json",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
     "start:dev": "nest start --watch",
